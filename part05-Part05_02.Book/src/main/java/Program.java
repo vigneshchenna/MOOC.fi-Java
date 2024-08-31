@@ -9,6 +9,9 @@ public class Program {
 
 //        Book b = new Book("J. K. Rowling", "Harry Potter and the Sorcerer's Stone", 223);
 //        System.out.println(b);
+          Book a = new Book("Jeff Kinney", "Diary of a Wimpy Kid", 154);
+          System.out.println(a);
+          System.out.println(a.getAuthor());
 
     }
 }
