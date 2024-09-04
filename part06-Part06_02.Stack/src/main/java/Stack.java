@@ -29,9 +29,9 @@ public class Stack {
     }
     
     public String take(){
-        String last = this.strings.get(strings.size()-1);
-        this.strings.remove(last);
-        return last;
+        
+        
+        return this.strings.remove(this.strings.size()-1);
         
     }
 }
