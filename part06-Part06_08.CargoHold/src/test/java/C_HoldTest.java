@@ -90,7 +90,7 @@ public class C_HoldTest<_Item, _Suitcase, _Hold> {
 
         String v = "\n"
                 + "Suitcase m = new Suitcase(10);\n"
-                + "Hold r = new Hold(100;\n)"
+                + "Hold r = new Hold(100);\n"
                 + "r.addSuitcase(m);";
 
         assertTrue("Class Hold must have method public void addSuitcase(Suitcase suitcase)", _HoldRef.method(hold, "addSuitcase").returningVoid().taking(_SuitcaseRef.cls()).withNiceError(v).isPublic());
