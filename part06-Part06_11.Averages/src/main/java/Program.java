@@ -7,7 +7,7 @@ public class Program {
         Scanner scanner = new Scanner(System.in);
 
         GradeRegister register = new GradeRegister();
-
+        System.out.println(register.averageOfPoints());
         UserInterface ui = new UserInterface(register, scanner);
         ui.start();
     }
